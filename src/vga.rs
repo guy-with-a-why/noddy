@@ -3,6 +3,7 @@ const COLS: usize = 80;
 const ROWS: usize = 25;
 
 #[allow(dead_code)]
+#[derive(Clone, Copy)]
 #[repr(u8)]
 pub enum Color {
     Black      = 0x0,
